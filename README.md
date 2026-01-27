@@ -1,25 +1,78 @@
-Retail sale of Apple products through physical stores, with additional services such as extended warranties.
+<h1 align="center">🧹 Retail Data Cleaning & Transformation (SQL)</h1>
 
-Available data assets:
+<p align="center">
+End-to-end data cleaning project focused on preparing a retail sales dataset for reliable analysis.
+</p>
 
-- Products: product catalog
-- Category: product classification
-- Sales: sales transactions
-- Stores: store information
-- Warranty: warranty sales and usage
+---
 
-Business Context & Objectives
-Apple Retail operates multiple physical stores with high sales volumes but lacks clear visibility into which products, categories, and stores generate the most economic value, as well as the real contribution of extended warranties to total revenue. This limitation hinders effective decision-making related to inventory management, promotions, and store performance optimization.
+## 📌 Project Overview
 
-The objective of this project is to analyze Apple Retail’s sales performance at the product, category, and store levels, and to assess the economic impact of warranties. The analysis aims to identify profitability drivers, compare store performance, and uncover relevant sales patterns that support data-driven strategic decisions.
+This project focuses on **data cleaning and transformation** for a retail sales dataset that presented multiple **data quality challenges**, including duplicated records and broken referential relationships between stores and sales data.
 
-Key business questions addressed include identifying the most profitable products and categories, evaluating comparative store performance, and quantifying the contribution of warranties to overall revenue.
+The main objective was to deliver a **clean, consistent, and analysis-ready dataset**, using **Excel for rapid exploration** and **SQL as the core transformation tool**, applying **CTEs, window functions, and JOIN operations**.
 
-Key Metrics
-- Total revenue
-- Number of sales and average ticket
-- Revenue by product and category
-- Warranty revenue and warranty attachment rate
-- Scope & Success Criteria
+---
 
-The project focuses on historical sales analysis, comparison across products, categories, and stores, and descriptive analysis of warranty performance. Success is defined by the ability to deliver a clean, validated, and well-structured dataset that enables reliable analysis and produces actionable insights clearly communicated to stakeholders.
+## 🧩 Data Quality Challenges
+
+- Duplicate records in stores table  
+- Inconsistent foreign keys affecting relational integrity  
+ 
+
+---
+
+## 🛠 Tools & Technologies
+
+- 📊 **Excel**  
+  - Rapid data exploration  
+  - Initial validation and anomaly detection  
+
+- 🧮 **SQL**  
+  - Data cleaning and transformation  
+  - CTEs (Common Table Expressions)  
+  - Window functions for deduplication  
+  - JOINs to restore relational consistency  
+
+---
+
+## 🔄 Cleaning & Transformation Workflow
+
+1. Exploratory analysis in Excel to detect inconsistencies  
+2. Identification of duplicated records across related tables  
+3. Use of **window functions** to flag and resolve duplications  
+4. Application of **JOINs** to rebuild and validate relational integrity  
+5. Generation of clean, standardized tables ready for analysis  
+
+---
+
+## 📈 Project Output
+
+- Cleaned and deduplicated transactional data  
+- Standardized customer and product dimension tables  
+- Relationally consistent dataset suitable for:
+  - KPI calculation  
+  - Business analysis  
+  - BI visualization  
+
+---
+
+## ✅ Key Takeaways
+
+- Hands-on experience solving **real-world data quality issues**  
+- Strong emphasis on **SQL-based data preparation**  
+- Effective use of **CTEs, window functions, and joins** in a business context  
+
+---
+
+## 🚀 Next Steps
+
+- Revenue and KPI analysis  
+- Customer segmentation  
+- Integration with Power BI dashboards  
+
+---
+
+<p align="center">
+<i>This project highlights data preparation as a critical foundation for reliable analytics and business decision-making.</i>
+</p>
